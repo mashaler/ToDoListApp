@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D793C0892C86477B003E8F97 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793C0882C86477B003E8F97 /* TodoListViewModel.swift */; };
+		D793C08B2C864792003E8F97 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793C08A2C864792003E8F97 /* TodoViewModel.swift */; };
 		D7A9007A2C862EFA00ABC38E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A900792C862EFA00ABC38E /* Task.swift */; };
 		D7A9007C2C862F1300ABC38E /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A9007B2C862F1300ABC38E /* Todo.swift */; };
 		D7A9007F2C86311300ABC38E /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A9007E2C86311300ABC38E /* AddTaskViewController.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D793C0882C86477B003E8F97 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		D793C08A2C864792003E8F97 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 		D7A900792C862EFA00ABC38E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		D7A9007B2C862F1300ABC38E /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		D7A9007E2C86311300ABC38E /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
@@ -63,8 +67,8 @@
 		D7A900752C862E3000ABC38E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				D7E5F61B2C86227D00FA6E16 /* AppDelegate.swift */,
-				D7E5F61D2C86227D00FA6E16 /* SceneDelegate.swift */,
+				D793C0882C86477B003E8F97 /* TodoListViewModel.swift */,
+				D793C08A2C864792003E8F97 /* TodoViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -120,6 +124,8 @@
 				D7A900752C862E3000ABC38E /* ViewModels */,
 				D7A9007D2C862FA300ABC38E /* ViewControllers */,
 				D7E5F6212C86227D00FA6E16 /* Main.storyboard */,
+				D7E5F61D2C86227D00FA6E16 /* SceneDelegate.swift */,
+				D7E5F61B2C86227D00FA6E16 /* AppDelegate.swift */,
 				D7E5F6272C86228000FA6E16 /* Assets.xcassets */,
 				D7E5F6292C86228000FA6E16 /* LaunchScreen.storyboard */,
 				D7E5F62C2C86228000FA6E16 /* Info.plist */,
@@ -199,6 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D793C08B2C864792003E8F97 /* TodoViewModel.swift in Sources */,
+				D793C0892C86477B003E8F97 /* TodoListViewModel.swift in Sources */,
 				D7A9007C2C862F1300ABC38E /* Todo.swift in Sources */,
 				D7A900852C8631C200ABC38E /* DailyTasksViewController.swift in Sources */,
 				D7A9007F2C86311300ABC38E /* AddTaskViewController.swift in Sources */,
