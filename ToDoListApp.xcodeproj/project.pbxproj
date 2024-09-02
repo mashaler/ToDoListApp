@@ -39,6 +39,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7A900742C862E1300ABC38E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D7A900752C862E3000ABC38E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D7A900762C862E4D00ABC38E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D7A900772C862E6400ABC38E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D7E5F60F2C86227D00FA6E16 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +86,10 @@
 		D7E5F61A2C86227D00FA6E16 /* ToDoListApp */ = {
 			isa = PBXGroup;
 			children = (
+				D7A900772C862E6400ABC38E /* Resources */,
+				D7A900762C862E4D00ABC38E /* Extensions */,
+				D7A900752C862E3000ABC38E /* ViewModels */,
+				D7A900742C862E1300ABC38E /* Models */,
 				D7E5F61B2C86227D00FA6E16 /* AppDelegate.swift */,
 				D7E5F61D2C86227D00FA6E16 /* SceneDelegate.swift */,
 				D7E5F61F2C86227D00FA6E16 /* ViewController.swift */,
