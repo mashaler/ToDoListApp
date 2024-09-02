@@ -8,6 +8,7 @@ target 'ToDoListApp' do
   # Pods for ToDoListApp
   pod 'RxSwift', '~> 6.0'
   pod 'RxCocoa', '~> 6.0'
-pod 'RxDataSources', '~> 5.0'
+  pod 'RxDataSources', '~> 5.0'
+  pod 'FSCalendar'
 
 end
