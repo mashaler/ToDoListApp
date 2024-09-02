@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7A9007A2C862EFA00ABC38E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A900792C862EFA00ABC38E /* Task.swift */; };
+		D7A9007C2C862F1300ABC38E /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A9007B2C862F1300ABC38E /* Todo.swift */; };
+		D7A9007F2C86311300ABC38E /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A9007E2C86311300ABC38E /* AddTaskViewController.swift */; };
+		D7A900812C86313600ABC38E /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A900802C86313600ABC38E /* CalenderViewController.swift */; };
+		D7A900852C8631C200ABC38E /* DailyTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A900842C8631C200ABC38E /* DailyTasksViewController.swift */; };
+		D7A900872C8631E700ABC38E /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A900862C8631E700ABC38E /* TodoTableViewCell.swift */; };
+		D7A900892C863EA300ABC38E /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A900882C863EA300ABC38E /* DateFormatter+Extensions.swift */; };
 		D7E5F61C2C86227D00FA6E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E5F61B2C86227D00FA6E16 /* AppDelegate.swift */; };
 		D7E5F61E2C86227D00FA6E16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E5F61D2C86227D00FA6E16 /* SceneDelegate.swift */; };
-		D7E5F6202C86227D00FA6E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E5F61F2C86227D00FA6E16 /* ViewController.swift */; };
 		D7E5F6232C86227D00FA6E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E5F6212C86227D00FA6E16 /* Main.storyboard */; };
 		D7E5F6262C86227D00FA6E16 /* ToDoListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7E5F6242C86227D00FA6E16 /* ToDoListApp.xcdatamodeld */; };
 		D7E5F6282C86228000FA6E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E5F6272C86228000FA6E16 /* Assets.xcassets */; };
@@ -17,10 +23,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7A900792C862EFA00ABC38E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D7A9007B2C862F1300ABC38E /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		D7A9007E2C86311300ABC38E /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		D7A900802C86313600ABC38E /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		D7A900842C8631C200ABC38E /* DailyTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTasksViewController.swift; sourceTree = "<group>"; };
+		D7A900862C8631E700ABC38E /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		D7A900882C863EA300ABC38E /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		D7E5F6182C86227D00FA6E16 /* ToDoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E5F61B2C86227D00FA6E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7E5F61D2C86227D00FA6E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7E5F61F2C86227D00FA6E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D7E5F6222C86227D00FA6E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7E5F6252C86227D00FA6E16 /* ToDoListApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoListApp.xcdatamodel; sourceTree = "<group>"; };
 		D7E5F6272C86228000FA6E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +54,8 @@
 		D7A900742C862E1300ABC38E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D7A900792C862EFA00ABC38E /* Task.swift */,
+				D7A9007B2C862F1300ABC38E /* Todo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -49,6 +63,8 @@
 		D7A900752C862E3000ABC38E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D7E5F61B2C86227D00FA6E16 /* AppDelegate.swift */,
+				D7E5F61D2C86227D00FA6E16 /* SceneDelegate.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -56,6 +72,7 @@
 		D7A900762C862E4D00ABC38E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D7A900882C863EA300ABC38E /* DateFormatter+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -65,6 +82,17 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7A9007D2C862FA300ABC38E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7A9007E2C86311300ABC38E /* AddTaskViewController.swift */,
+				D7A900802C86313600ABC38E /* CalenderViewController.swift */,
+				D7A900842C8631C200ABC38E /* DailyTasksViewController.swift */,
+				D7A900862C8631E700ABC38E /* TodoTableViewCell.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		D7E5F60F2C86227D00FA6E16 = {
@@ -86,13 +114,11 @@
 		D7E5F61A2C86227D00FA6E16 /* ToDoListApp */ = {
 			isa = PBXGroup;
 			children = (
-				D7A900772C862E6400ABC38E /* Resources */,
 				D7A900762C862E4D00ABC38E /* Extensions */,
-				D7A900752C862E3000ABC38E /* ViewModels */,
+				D7A900772C862E6400ABC38E /* Resources */,
 				D7A900742C862E1300ABC38E /* Models */,
-				D7E5F61B2C86227D00FA6E16 /* AppDelegate.swift */,
-				D7E5F61D2C86227D00FA6E16 /* SceneDelegate.swift */,
-				D7E5F61F2C86227D00FA6E16 /* ViewController.swift */,
+				D7A900752C862E3000ABC38E /* ViewModels */,
+				D7A9007D2C862FA300ABC38E /* ViewControllers */,
 				D7E5F6212C86227D00FA6E16 /* Main.storyboard */,
 				D7E5F6272C86228000FA6E16 /* Assets.xcassets */,
 				D7E5F6292C86228000FA6E16 /* LaunchScreen.storyboard */,
@@ -173,8 +199,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E5F6202C86227D00FA6E16 /* ViewController.swift in Sources */,
+				D7A9007C2C862F1300ABC38E /* Todo.swift in Sources */,
+				D7A900852C8631C200ABC38E /* DailyTasksViewController.swift in Sources */,
+				D7A9007F2C86311300ABC38E /* AddTaskViewController.swift in Sources */,
+				D7A900872C8631E700ABC38E /* TodoTableViewCell.swift in Sources */,
+				D7A900892C863EA300ABC38E /* DateFormatter+Extensions.swift in Sources */,
 				D7E5F61C2C86227D00FA6E16 /* AppDelegate.swift in Sources */,
+				D7A9007A2C862EFA00ABC38E /* Task.swift in Sources */,
+				D7A900812C86313600ABC38E /* CalenderViewController.swift in Sources */,
 				D7E5F61E2C86227D00FA6E16 /* SceneDelegate.swift in Sources */,
 				D7E5F6262C86227D00FA6E16 /* ToDoListApp.xcdatamodeld in Sources */,
 			);
